@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Activity_Car_avoid">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/CarAvoid_LAY_heartLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/CarAvoid_IMG_heart1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_heart"/>
+
+        <View
+            android:layout_width="12dp"
+            android:layout_height="0dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/CarAvoid_IMG_heart2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_heart"/>
+
+        <View
+            android:layout_width="12dp"
+            android:layout_height="0dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/CarAvoid_IMG_heart3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_heart"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/gameArea"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/carAvoid_LAY_arrows"
+        android:layout_below="@id/CarAvoid_LAY_heartLayout"
+        android:orientation="vertical">
+
+        <!-- Rows -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row1_obs1"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row1_obs2"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone"/>
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row1_obs3"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row2_obs1"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row2_obs2"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row2_obs3"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/row3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row3_obs1"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row3_obs2"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row3_obs3"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/row4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row4_obs1"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row4_obs2"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row4_obs3"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/row5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row5_obs1"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row5_obs2"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row5_obs3"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/car_lane"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_car_lane_1"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_car"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_car_lane_2"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_car"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_car_lane_3"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_car"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/CarAvoid_LBL_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/CarAvoid_LAY_heartLayout"
+        android:layout_alignBottom="@id/CarAvoid_LAY_heartLayout"
+        android:layout_marginEnd="16dp"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="000"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/carAvoid_LAY_arrows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/carAvoid_BTN_left"
+            style="@style/Widget.Material3.Button.Icon"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:backgroundTint="#F44336"
+            app:icon="@drawable/ic_arrow_left"
+            app:iconGravity="textEnd"
+            app:iconSize="52dp"/>
+
+        <LinearLayout
+            android:id="@+id/gap_between_arrows"
+            android:layout_width="210dp"
+            android:layout_height="85dp"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_explode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_explosion"
+                android:scaleType="fitCenter"/>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/carAvoid_BTN_right"
+            style="@style/Widget.Material3.Button.Icon"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:backgroundTint="#F44336"
+            app:icon="@drawable/ic_arrow_right"
+            app:iconGravity="textEnd"
+            app:iconSize="52dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</RelativeLayout>
