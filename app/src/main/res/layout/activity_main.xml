@@ -65,6 +65,7 @@
             >
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/CarAvoid_IMG_row1_obs1"
+                android:visibility="invisible"
                 android:layout_width="0dp"
                 android:layout_height="77dp"
                 android:layout_weight="1"
@@ -78,6 +79,7 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/CarAvoid_IMG_row1_obs2"
+                android:visibility="invisible"
                 android:layout_width="0dp"
                 android:layout_height="77dp"
                 android:layout_weight="1"
@@ -89,11 +91,35 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/CarAvoid_IMG_row1_obs3"
+                android:visibility="invisible"
                 android:layout_width="0dp"
                 android:layout_height="77dp"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
                 android:src="@drawable/img_traffic_cone_1"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row1_obs4"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone_1"/>
+
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row1_obs5"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone_1"/>
+
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -106,6 +132,7 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/CarAvoid_IMG_row2_obs1"
+                android:visibility="invisible"
                 android:layout_width="0dp"
                 android:layout_height="77dp"
                 android:layout_weight="1"
@@ -118,6 +145,7 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/CarAvoid_IMG_row2_obs2"
+                android:visibility="invisible"
                 android:layout_width="0dp"
                 android:layout_height="77dp"
                 android:layout_weight="1"
@@ -130,6 +158,29 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/CarAvoid_IMG_row2_obs3"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone_1"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row2_obs4"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone_1"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row2_obs5"
+                android:visibility="invisible"
                 android:layout_width="0dp"
                 android:layout_height="77dp"
                 android:layout_weight="1"
@@ -147,6 +198,7 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/CarAvoid_IMG_row3_obs1"
+                android:visibility="invisible"
                 android:layout_width="0dp"
                 android:layout_height="77dp"
                 android:layout_weight="1"
@@ -159,6 +211,7 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/CarAvoid_IMG_row3_obs2"
+                android:visibility="invisible"
                 android:layout_width="0dp"
                 android:layout_height="77dp"
                 android:layout_weight="1"
@@ -171,6 +224,29 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/CarAvoid_IMG_row3_obs3"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone_1"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row3_obs4"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone_1"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row3_obs5"
+                android:visibility="invisible"
                 android:layout_width="0dp"
                 android:layout_height="77dp"
                 android:layout_weight="1"
@@ -188,6 +264,7 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/CarAvoid_IMG_row4_obs1"
+                android:visibility="invisible"
                 android:layout_width="0dp"
                 android:layout_height="77dp"
                 android:layout_weight="1"
@@ -200,6 +277,7 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/CarAvoid_IMG_row4_obs2"
+                android:visibility="invisible"
                 android:layout_width="0dp"
                 android:layout_height="77dp"
                 android:layout_weight="1"
@@ -212,6 +290,32 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/CarAvoid_IMG_row4_obs3"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone_1"/>
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row4_obs4"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone_1"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row4_obs5"
+                android:visibility="invisible"
                 android:layout_width="0dp"
                 android:layout_height="77dp"
                 android:layout_weight="1"
@@ -228,6 +332,7 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/CarAvoid_IMG_row5_obs1"
+                android:visibility="invisible"
                 android:layout_width="0dp"
                 android:layout_height="77dp"
                 android:layout_weight="1"
@@ -240,6 +345,7 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/CarAvoid_IMG_row5_obs2"
+                android:visibility="invisible"
                 android:layout_width="0dp"
                 android:layout_height="77dp"
                 android:layout_weight="1"
@@ -252,6 +358,32 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/CarAvoid_IMG_row5_obs3"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone_1"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row5_obs4"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_traffic_cone_1"/>
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row5_obs5"
+                android:visibility="invisible"
                 android:layout_width="0dp"
                 android:layout_height="77dp"
                 android:layout_weight="1"
@@ -269,6 +401,7 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/CarAvoid_IMG_car_lane_1"
+                android:visibility="invisible"
                 android:layout_width="0dp"
                 android:layout_height="77dp"
                 android:layout_weight="1"
@@ -281,6 +414,7 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/CarAvoid_IMG_car_lane_2"
+                android:visibility="invisible"
                 android:layout_width="0dp"
                 android:layout_height="77dp"
                 android:layout_weight="1"
@@ -293,12 +427,389 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/CarAvoid_IMG_car_lane_3"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_car"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_car_lane_4"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_car"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_car_lane_5"
+                android:visibility="invisible"
                 android:layout_width="0dp"
                 android:layout_height="77dp"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
                 android:src="@drawable/img_car"/>
         </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/bonusArea"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/carAvoid_LAY_arrows"
+        android:layout_below="@id/CarAvoid_LAY_heartLayout"
+        android:orientation="vertical">
+
+        <!-- Rows -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/rowBonus1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row1_bonus1"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row1_bonus2"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row1_bonus3"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row1_bonus4"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row1_bonus5"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/rowbonus2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row2_bonus1"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row2_bonus2"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row2_bonus3"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row2_bonus4"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row2_bonus5"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/rowbonus3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row3_bonus1"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row3_bonus2"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row3_bonus3"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row3_bonus4"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row3_bonus5"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/rowbonus4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row4_bonus1"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row4_bonus2"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row4_bonus3"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row4_bonus4"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row4_bonus5"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/rowbonus5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row5_bonus1"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row5_bonus2"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row5_bonus3"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row5_bonus4"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+            <View
+                android:layout_width="12dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/CarAvoid_IMG_row5_bonus5"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_coin"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
 
 
     </androidx.appcompat.widget.LinearLayoutCompat>
@@ -348,6 +859,7 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/CarAvoid_IMG_explode"
+                android:visibility="invisible"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/img_explosion"

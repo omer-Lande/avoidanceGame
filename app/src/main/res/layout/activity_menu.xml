@@ -46,11 +46,12 @@
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/car_gif"
+        android:id="@+id/carStart"
         android:layout_width="175dp"
         android:layout_height="175dp"
         android:layout_gravity="center"
-        android:layout_marginBottom="24dp"/>
+        android:src="@drawable/img_car"
+        android:layout_marginBottom="24dp" />
 
     <Button
         android:id="@+id/startGameButton"

@@ -1,4 +1,6 @@
 package com.example.caravoidancegame;
 
-public class Activity_Score {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Activity_Score extends AppCompatActivity {
 }

@@ -6,18 +6,20 @@ public class GameManager {
     private int lives;
     private int initialLives;
 
-    private int currentCarLane = 1; // Start at lane 2, which is index 1 in a zero-indexed array
+    private int currentCarLane = 2; // Start at lane 3, which is index 2 in a zero-indexed array
 
 
 
     public GameManager(int initialLives) {
-        this.initialLives = initialLives;
+
         if (initialLives > 0 && initialLives <= 3) {
             this.lives = initialLives;
+            this.initialLives = initialLives;
         }
-        else
+        else {
             this.lives = 3;
-
+            this.initialLives = 3;
+        }
     }
 
     public void decreaseLive() {

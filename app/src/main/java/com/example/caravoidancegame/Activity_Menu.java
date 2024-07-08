@@ -1,11 +1,15 @@
-
 package com.example.caravoidancegame;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Switch;
+import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatImageView;
 
@@ -18,7 +22,7 @@ public class Activity_Menu extends AppCompatActivity {
     private Switch sensorModeSwitch;
     private Button startGameButton;
     private Button scoreboardButton;
-    private AppCompatImageView carGif;
+    private AppCompatImageView carStart;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,17 +30,38 @@ public class Activity_Menu extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
         findViews();
 
+        // Set up listeners for the switches
+        fastModeSwitch.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (isChecked) {
+                fastModeSwitch.setTextColor(Color.GREEN);
+            } else {
+                fastModeSwitch.setTextColor(Color.GRAY);
+            }
+        });
+
+        sensorModeSwitch.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (isChecked) {
+                sensorModeSwitch.setTextColor(Color.GREEN);
+            } else {
+                sensorModeSwitch.setTextColor(Color.GRAY);
+            }
+        });
 
         startGameButton.setOnClickListener(view -> {
             String playerName = playerNameEditText.getText().toString();
-            boolean isFastMode = fastModeSwitch.isChecked();
-            boolean isSensorMode = sensorModeSwitch.isChecked();
+            if(playerName.trim().isEmpty()){
+                Toast.makeText(this, "Please Enter a Name", Toast.LENGTH_SHORT).show();
+            }
+            else{
+                boolean isFastMode = fastModeSwitch.isChecked();
+                boolean isSensorMode = sensorModeSwitch.isChecked();
 
-            Intent intent = new Intent(Activity_Menu.this, GameManager.class);
-            intent.putExtra("playerName", playerName);
-            intent.putExtra("isFastMode", isFastMode);
-            intent.putExtra("isSensorMode", isSensorMode);
-            startActivity(intent);
+                Intent intent = new Intent(Activity_Menu.this, Activity_CarAvoid.class);
+                intent.putExtra("playerName", playerName);
+                intent.putExtra("isFastMode", isFastMode);
+                intent.putExtra("isSensorMode", isSensorMode);
+                startActivity(intent);
+            }
         });
 
         scoreboardButton.setOnClickListener(view -> {
@@ -45,12 +70,23 @@ public class Activity_Menu extends AppCompatActivity {
         });
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
+
     private void findViews() {
         playerNameEditText = findViewById(R.id.playerName);
         fastModeSwitch = findViewById(R.id.fastModeSwitch);
         sensorModeSwitch = findViewById(R.id.sensorModeSwitch);
         startGameButton = findViewById(R.id.startGameButton);
         scoreboardButton = findViewById(R.id.scoreboardButton);
-        carGif = findViewById(R.id.car_gif);
+        carStart = findViewById(R.id.carStart);
+        carStart.setVisibility(View.VISIBLE);
     }
 }
