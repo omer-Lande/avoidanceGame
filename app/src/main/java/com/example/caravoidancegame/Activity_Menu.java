@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Switch;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatImageView;
 
 import com.example.caravoidencegame.R;
 
@@ -17,17 +18,14 @@ public class Activity_Menu extends AppCompatActivity {
     private Switch sensorModeSwitch;
     private Button startGameButton;
     private Button scoreboardButton;
+    private AppCompatImageView carGif;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+        findViews();
 
-        playerNameEditText = findViewById(R.id.playerName);
-        fastModeSwitch = findViewById(R.id.fastModeSwitch);
-        sensorModeSwitch = findViewById(R.id.sensorModeSwitch);
-        startGameButton = findViewById(R.id.startGameButton);
-        scoreboardButton = findViewById(R.id.scoreboardButton);
 
         startGameButton.setOnClickListener(view -> {
             String playerName = playerNameEditText.getText().toString();
@@ -42,8 +40,17 @@ public class Activity_Menu extends AppCompatActivity {
         });
 
         scoreboardButton.setOnClickListener(view -> {
-            Intent intent = new Intent(Activity_Menu.this, Activity_Menu.class);
+            Intent intent = new Intent(Activity_Menu.this, Activity_Score.class);
             startActivity(intent);
         });
+    }
+
+    private void findViews() {
+        playerNameEditText = findViewById(R.id.playerName);
+        fastModeSwitch = findViewById(R.id.fastModeSwitch);
+        sensorModeSwitch = findViewById(R.id.sensorModeSwitch);
+        startGameButton = findViewById(R.id.startGameButton);
+        scoreboardButton = findViewById(R.id.scoreboardButton);
+        carGif = findViewById(R.id.car_gif);
     }
 }

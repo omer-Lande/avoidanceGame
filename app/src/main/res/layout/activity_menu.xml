@@ -1,9 +1,9 @@
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:gravity="center_horizontal">
 
     <TextView
         android:id="@+id/titleText"
@@ -13,36 +13,51 @@
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
-        android:marginBottom="20dp" />
+        android:layout_marginBottom="24dp" />
 
     <EditText
         android:id="@+id/playerName"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Enter your name"
         android:inputType="textPersonName"
-        android:layout_marginBottom="20dp" />
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp" />
 
-    <Switch
-        android:id="@+id/fastModeSwitch"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Fast Mode"
-        android:layout_marginBottom="20dp" />
+        android:layout_marginBottom="24dp"
+        android:orientation="horizontal">
 
-    <Switch
-        android:id="@+id/sensorModeSwitch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sensor Mode"
-        android:layout_marginBottom="20dp" />
+        <Switch
+            android:id="@+id/fastModeSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fast Mode" />
+
+        <Switch
+            android:id="@+id/sensorModeSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sensor Mode" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/car_gif"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"/>
 
     <Button
         android:id="@+id/startGameButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Start Game"
-        android:layout_marginBottom="20dp" />
+        android:layout_marginBottom="24dp" />
 
     <Button
         android:id="@+id/scoreboardButton"
