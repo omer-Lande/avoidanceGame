@@ -44,4 +44,12 @@ public class AppScore {
         this.longitude = lon;
         return this;
     }
+
+    @Override
+    public String toString() {
+        StringBuffer sb = new StringBuffer("User:").append(playerName);
+        sb.append("\nScore:").append(score);
+        return sb.toString();
+
+    }
 }
